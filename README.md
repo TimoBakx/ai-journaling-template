@@ -1,4 +1,4 @@
-# 📚 AI-Powered journaling & Personal Growth System
+# 📚 AI-Powered Journaling & Personal Growth System
 
 A structured system for personal and professional development through daily journaling with AI support. This template helps you make growth visible, recognize patterns and capture meaningful reflections.
 
@@ -131,7 +131,7 @@ This system is designed to work seamlessly with AI support (such as Cursor, Chat
 - **Structured reflection** - Frameworks for meaningful growth
 - **Memory function** - Refer back to earlier notes and patterns
 
-## 📝 journaling Workflow
+## 📝 Journaling Workflow
 
 ### Daily Routine
 1. **Start your day** - Fill in the "🎯 Planned" section with your tasks
