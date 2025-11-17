@@ -15,7 +15,7 @@ Weekly evaluations are **deeper reflection** moments where we:
 
 ## When to Evaluate
 
-- **End of week** - when filling in the weekly evaluation (`weekevaluatie.md`)
+- **End of week** - when filling in the weekly evaluation (`week-evaluation.md`)
 - **Use template** - `journal/weekly-review-template.md`
 - **Covers full week** - all 5 workdays + patterns that emerge
 
@@ -60,9 +60,9 @@ Use `journal/weekly-review-template.md` when creating new weekly evaluations.
 
 ## File Naming & Location
 
-- **Week evaluations**: `weekevaluatie.md` within the week directory
+- **Week evaluations**: `week-evaluation.md` within the week directory
 - **Check-ins**: `checkin.md` within the week directory (e.g. for supervisor)
-- **Location**: `journal/[YEAR]/[WEEK_NUMBER]/weekevaluatie.md`
+- **Location**: `journal/[YEAR]/[WEEK_NUMBER]/week-evaluation.md`
 
 ## Difference from Daily Reflection
 

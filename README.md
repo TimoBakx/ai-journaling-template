@@ -2,6 +2,8 @@
 
 A structured system for personal and professional development through daily journalling with AI support. This template helps you make growth visible, recognize patterns and capture meaningful reflections.
 
+There is also a [Dutch version](https://github.com/TimoBakx/ai-journaling-template-nl).
+
 ## 🎯 Purpose
 
 This journalling system is designed to:
@@ -29,36 +31,36 @@ notes/
 ├── .cursor/
 │   └── rules/                 # AI Coach configuration and rules
 │       ├── ai-coach-personality.mdc  # Personality and character of your AI coach
-│       ├── ai-coach-role.mdc              # Role and functions of your AI coach
-│       ├── general-rules.mdc           # Project structure and workflow
-│       ├── userprofile.mdc         # Reference to profile directory
-│       ├── journalling-rules.mdc        # Daily journalling workflow
-│       ├── reflection-rules.mdc          # End of day reflection methodology
-│       └── evaluation-rules.mdc          # Weekly evaluation approach
+│       ├── ai-coach-role.mdc         # Role and functions of your AI coach
+│       ├── general-rules.mdc         # Project structure and workflow
+│       ├── userprofile.mdc           # Reference to profile directory
+│       ├── journalling-rules.mdc     # Daily journalling workflow
+│       ├── reflection-rules.mdc      # End of day reflection methodology
+│       └── evaluation-rules.mdc      # Weekly evaluation approach
 ├── profile/                   # Personal assessments and profiles (optional)
 │   ├── big-five.md            # Big Five personality assessment
 │   ├── disc.md                # DISC behavioral analysis  
 │   ├── human-design.md        # Human Design body graph
 │   ├── neurodivergence.md     # Neurodivergent traits
 │   └── professional.md        # Professional background and expertise
-├── work-evaluations/           # Performance reviews and growth plans (optional)
-│   ├── [DATE]-jaargesprek.md            # Annual reviews
-│   ├── [DATE]-halfjaargesprek.md        # Half-year check-ins
-│   └── persoonlijke-groei-plan-[YEAR].md # Growth plans
+├── work-evaluations/          # Performance reviews and growth plans (optional)
+│   ├── [DATE]-annual-review.md            # Annual reviews
+│   ├── [DATE]-half-year-checkin.md        # Half-year check-ins
+│   └── persoonlijke-groei-plan-[YEAR].md  # Growth plans
 ├── journal/                   # Daily journalling and reflection
 │   ├── [YEAR]/                # Year directory (e.g. 2025/)
 │   │   └── [WEEK]/            # Week directory (e.g. 45/)
-│   │       ├── 1-maandag-[YEAR]-[MONTH]-[DAY].md
-│   │       ├── 2-dinsdag-[YEAR]-[MONTH]-[DAY].md
-│   │       ├── 3-woensdag-[YEAR]-[MONTH]-[DAY].md
-│   │       ├── 4-donderdag-[YEAR]-[MONTH]-[DAY].md
-│   │       ├── 5-vrijdag-[YEAR]-[MONTH]-[DAY].md
-│   │       ├── weekevaluatie.md          # Weekly reflection
-│   │       └── checkin.md (optional)    # For conversations with supervisor
+│   │       ├── 1-monday-[YEAR]-[MONTH]-[DAY].md
+│   │       ├── 2-tuesday-[YEAR]-[MONTH]-[DAY].md
+│   │       ├── 3-wednesday-[YEAR]-[MONTH]-[DAY].md
+│   │       ├── 4-thursday-[YEAR]-[MONTH]-[DAY].md
+│   │       ├── 5-friday-[YEAR]-[MONTH]-[DAY].md
+│   │       ├── week-evaluation.md        # Weekly reflection
+│   │       └── checkin.md (optional)     # For conversations with supervisor
 │   ├── daily-journal-template.md         # Template for daily entries
 │   ├── weekly-review-template.md         # Template for week evaluations
 │   └── checkin-template.md               # Template for check-in reports
-├── projects/                 # Project context and documentation (optional)
+├── projects/                  # Project context and documentation (optional)
 │   ├── _template.md           # Template for new projects
 │   └── [project-name].md      # Project details and reflections
 └── people/                    # Colleagues and collaboration partners (optional)
@@ -72,12 +74,12 @@ Each week follows a consistent structure within `journal/[YEAR]/[WEEK_NUMBER]/`:
 
 ```
 journal/2025/45/
-├── 1-maandag-2025-11-03.md
-├── 2-dinsdag-2025-11-04.md
-├── 3-woensdag-2025-11-05.md
-├── 4-donderdag-2025-11-06.md
-├── 5-vrijdag-2025-11-07.md
-└── weekevaluatie.md
+├── 1-monday-2025-11-03.md
+├── 2-tuesday-2025-11-04.md
+├── 3-wednesday-2025-11-05.md
+├── 4-thursday-2025-11-06.md
+├── 5-friday-2025-11-07.md
+└── week-evaluation.md
 ```
 
 Week numbers follow the ISO 8601 standard (use `date +%V` on Unix systems).
