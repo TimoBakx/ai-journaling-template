@@ -1,12 +1,12 @@
-# 📚 AI-Powered Journalling & Personal Growth System
+# 📚 AI-Powered journaling & Personal Growth System
 
-A structured system for personal and professional development through daily journalling with AI support. This template helps you make growth visible, recognize patterns and capture meaningful reflections.
+A structured system for personal and professional development through daily journaling with AI support. This template helps you make growth visible, recognize patterns and capture meaningful reflections.
 
 There is also a [Dutch version](https://github.com/TimoBakx/ai-journaling-template-nl).
 
 ## 🎯 Purpose
 
-This journalling system is designed to:
+This journaling system is designed to:
 - **Track personal and professional growth** through structured reflection
 - **Preserve insights** from daily experiences, conversations and learning moments
 - **Recognize patterns** in your thinking, behavior and development
@@ -34,7 +34,7 @@ notes/
 │       ├── ai-coach-role.mdc         # Role and functions of your AI coach
 │       ├── general-rules.mdc         # Project structure and workflow
 │       ├── userprofile.mdc           # Reference to profile directory
-│       ├── journalling-rules.mdc     # Daily journalling workflow
+│       ├── journaling-rules.mdc     # Daily journaling workflow
 │       ├── reflection-rules.mdc      # End of day reflection methodology
 │       └── evaluation-rules.mdc      # Weekly evaluation approach
 ├── profile/                   # Personal assessments and profiles (optional)
@@ -47,7 +47,7 @@ notes/
 │   ├── [DATE]-annual-review.md            # Annual reviews
 │   ├── [DATE]-half-year-checkin.md        # Half-year check-ins
 │   └── persoonlijke-groei-plan-[YEAR].md  # Growth plans
-├── journal/                   # Daily journalling and reflection
+├── journal/                   # Daily journaling and reflection
 │   ├── [YEAR]/                # Year directory (e.g. 2025/)
 │   │   └── [WEEK]/            # Week directory (e.g. 45/)
 │   │       ├── 1-monday-[YEAR]-[MONTH]-[DAY].md
@@ -103,7 +103,7 @@ The `profile/` directory helps your AI coach understand you better:
 
 The more context your AI coach has, the better the guidance!
 
-### 3. Start Journalling
+### 3. Start journaling
 Start your first daily journal entry:
 1. Create a directory structure: `journal/[YEAR]/[WEEK_NUMBER]/`
 2. Use `journal/daily-journal-template.md` for your first entry
@@ -131,7 +131,7 @@ This system is designed to work seamlessly with AI support (such as Cursor, Chat
 - **Structured reflection** - Frameworks for meaningful growth
 - **Memory function** - Refer back to earlier notes and patterns
 
-## 📝 Journalling Workflow
+## 📝 journaling Workflow
 
 ### Daily Routine
 1. **Start your day** - Fill in the "🎯 Planned" section with your tasks
@@ -172,7 +172,7 @@ Your AI coach helps you with:
 
 ## 🌱 Philosophy
 
-This journalling approach is built on:
+This journaling approach is built on:
 - **Safety** - this is your safe space for growth and reflection
 - **Honesty** - authentic sharing without filter or judgment
 - **Patience** - growth takes time, small steps count

@@ -1,12 +1,12 @@
 ---
-description: Rules for daily journalling - planning and daily flow
+description: Rules for daily journaling - planning and daily flow
 alwaysApply: true
 ---
-# 📝 Journalling Rules - Daily Workflow
+# 📝 journaling Rules - Daily Workflow
 
-## Purpose of Daily Journalling
+## Purpose of Daily journaling
 
-Daily journalling is **brief and specific** - what happened, short observations, concrete facts. This forms the foundation for deeper analysis during evaluations.
+Daily journaling is **brief and specific** - what happened, short observations, concrete facts. This forms the foundation for deeper analysis during evaluations.
 
 ## Daily Routine
 
@@ -56,9 +56,9 @@ Use `journal/daily-journal-template.md` when creating new daily journal files.
 - **Daily files**: `[DAY_NUMBER]-[day]-[DATE].md` (e.g. `1-monday-2025-10-27.md`)
 - **Journal is "namespaced"** by year and week: `journal/[YEAR]/[WEEK_NUMBER]/`
 
-## My Role in Journalling
+## My Role in journaling
 
-- **Proactive journalling** - I proactively update today's journal (without asking) when new information becomes available
+- **Proactive journaling** - I proactively update today's journal (without asking) when new information becomes available
 - **Asking questions** - ask questions when things are unclear
 - **Providing structure** - help organize chaos into clear notes
 - **Memory function** - refer back to earlier notes and patterns

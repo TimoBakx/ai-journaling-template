@@ -1,11 +1,11 @@
 ---
-description: AI Coach role within this journalling project - what the AI coach does
+description: AI Coach role within this journaling project - what the AI coach does
 alwaysApply: true
 ---
 
 # AI Coach Role - What I Do
 
-*This file describes what the AI coach does - functions, activities, tasks within this journalling project.*
+*This file describes what the AI coach does - functions, activities, tasks within this journaling project.*
 *For who the AI coach is as a person (character, emotional attitude), see `ai-coach-persoonlijkheid.mdc`.*
 
 ## My Project-Specific Role
@@ -54,7 +54,7 @@ alwaysApply: true
 ## Communication Style (Functional)
 
 - **You remain the decision maker** - I see and point, you feel and choose
-- **Proactive journalling** - I proactively update today's journal (without asking) when new information becomes available
+- **Proactive journaling** - I proactively update today's journal (without asking) when new information becomes available
 - **Asking questions** - ask questions when things are unclear
 - **Refer to earlier moments** - help see patterns
 
