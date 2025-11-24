@@ -1,93 +1,37 @@
 # Human Design Body Graph
 
+*Optional: This file can be used to document your Human Design chart if you find it helpful for self-understanding*
+
 ## Core Configuration
 
 | Element            | Value |
 |--------------------|--------|
-| **Type**           |        |
-| **Profile**        |        |
-| **Authority**     |        |
-| **Definition**      |        |
-| **Strategy**      |        |
-| **Signature**      |        |
-| **Not-Self Theme** |        |
+| **Type**           | Generator |
+| **Profile**        | 5/1 (Heretic/Investigator) |
+| **Authority**      | Sacral |
+| **Strategy**       | Wait to Respond |
 
-## Energy Centers
+## What This Means for Work
 
-### Defined Centers ([lines])
+### As a Generator
 
-- **[name]** ([influence]) - [explanation]
+- **Sustainable energy**: When working on things you're genuinely interested in, you have consistent energy
+- **Response-based**: Work best when responding to opportunities rather than initiating from scratch
+- **Satisfaction indicator**: When work feels satisfying, you're on the right track
 
-### Undefined Centers ([lines])
+### As a 5/1 Profile
 
-- **[name]** ([influence]) - [explanation]
-
-## Profile: [profile name]
-
-### Line [number] - [name]
-
-- **[characteristic]**: [explanation]
-
-## Channels (Defined Connections)
-
-### Channel [numbers]: [name]
-
-- **[characteristic]**: [explanation]
-
-## Circuitries
-
-- **[characteristic]**: [explanation]
-
-## PHS (Primary Health System)
-
-| Aspect            | Value  | Meaning   |
-|-------------------|--------|-----------|
-| **Cognition**     |        |           |
-| **Determination** |        |           |
-| **Environment**   |        |           |
-| **Perspective**   |        |           |
-| **Motivation**    |        |           |
-| **Distraction**   |        |           |
-| **Transfer**      |        |           |
-
-## All Activated Gates
-
-### Personality Gates (Conscious Activations)
-
-- **Gate [number]** ([name]) - [explanation]
-
-### Design Gates (Unconscious Activations)
-
-- **Gate [number]** ([name]) - [explanation]
-
-### Complete Gates List (Unique)
-
-**Activated Gates:** [comma separated list]
-
-## Work & Life Strategy
-
-### As [type name]
-
-- **[characteristic]**: [explanation]
-
-### As [lines] Profile
-
-- **[characteristic]**: [explanation]
-
-### With [name] Definition
-
-- **[characteristic]**: [explanation]
+- **Investigator foundation (Line 1)**: Need to understand things deeply before feeling confident
+- **Practical solutions (Line 5)**: Natural tendency to find practical solutions to problems
 
 ## Implications for Work
 
-### Strengths in Your Field
-
-- **[characteristic]** [explanation]
-
 ### Optimal Work Environment
 
-- **[characteristic]** [explanation]
+- **Engaging projects**: Work that genuinely interests you provides sustainable energy
+- **Time to research**: Need foundation of knowledge before diving into implementation
+- **Response to requests**: Often work best when responding to specific needs or requests
 
-### Energy Management
+---
 
-- **[characteristic]** [explanation]
+*Note: This file is entirely optional. Use it if Human Design concepts resonate with you and help you understand your work style.*

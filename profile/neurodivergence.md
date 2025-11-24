@@ -1,31 +1,22 @@
 # Neurodivergent Traits
 
-*These neurological differences significantly shape how I process information, work and learn*
+*Optional: This file can be used to document neurological differences that shape how you process information, work and learn*
 
 ## Core Characteristics
 
-### [characteristic]
-**[explanation]**
-
-**What this means:**
-- [consequence]
-
-**Impact on work:**
-- [system/tool/workaround]
-
-## How These Traits Work Together
+*This section is optional and can be customized based on your specific needs*
 
 ## Optimal Work Strategies
 
 ### What Works Best
-- **[suggestion]** [explanation]
-
-### What to Avoid
-- **[situation]** [explanation]
+- **External processing**: Talking through problems, writing things down, visualizing concepts
+- **Documentation**: Keeping detailed notes and documentation for reference
+- **Structured approaches**: Clear processes and systematic problem-solving
 
 ### Communication Preferences
-- **[characteristic]** [explanation]
+- **Written communication**: Often clearer than verbal for complex topics
+- **Time to process**: Appreciates time to think through complex questions before responding
 
 ---
 
-*These neurological differences are not limitations - they are simply different ways of processing information that require specific tools and strategies to work optimally. Understanding them helps optimize work style and collaboration approaches.*
+*Note: This file is entirely optional. Use it if understanding your neurological differences helps optimize your work style and collaboration approaches.*
