@@ -1,69 +1,103 @@
-# Check-in Report for lead
+# Check-in with [manager]
 **Period:** [START DATE] - [END DATE] (Week [X] & [Y])  
 **Report date:** [TODAY'S DATE]
+
+*Built from the daily journals, the weekly reviews and `work-evaluation/expectations.md` for this period.*
 
 ---
 
 ## 🎯 How Did It Go?
 
-*3-4 paragraphs with the human story - how did the period feel, what characterized these weeks, what energy dynamics were there?*
+*3 to 4 paragraphs with the human story: how did the period feel, what characterized these weeks, how was the energy?*
+
+**The short version:** [1 to 2 sentences, the core of the period]
+
+**The good side:** [1 to 2 sentences, what went well, what stood out]
+
+**The lesson or challenge:** [1 to 2 sentences, what was hard, what I learned]
+
+*[Tune the form to the reader. Example: a manager with a D+I profile wants stories about people, energy and impact, not project details or technical specifications.]*
 
 ---
 
-## 💡 Growth Moments This Period
+## 🧭 Work On Learning Goals
 
-*2-4 concrete examples of growth, directly linked to the 4 growth goals. Use storytelling - what happened, why is this growth, what does this show?*
+*Per learning goal from `expectations.md`: what did I work on this period, and how? No status. "Not this period" is a normal outcome.*
 
-### [emoji] [goal]
-
-**[Moment Title]**
-[Description of what happened - storytelling format]
-
-**Why this is growth:**
-- **[reason]** ✅/⚠️ - [How did they do this?]
+### 1. [Learning goal]
+[What I did, with links to the days. Or: not this period.]
 
 ---
 
-## ⚠️ Attention Points
+## ✅ Above Expectations This Period
 
-*1-3 challenges/lessons, always with context and how the user dealt with them. Not a complaint list but learning moments.*
+*2 to 4 examples from `expectations.md`, chosen for what goes furthest beyond the expectation for the component. Storytelling: what happened, and why does it go beyond what the component asks?*
 
-### [Situation/Lesson Title]
+### [Code] [Moment Title]
+[What happened.]
 
-**What happened:**
-[Objective description - what was the situation, what was going on]
+**Why above expectations:** [What the expectation for this component asks, and where this goes beyond it.]
 
-**The lesson/challenge:**
-[What was difficult, what did the user learn, what did the user struggle with]
-
-**How it was handled:**
-[What the user did well, what can be better, what is the positive side]
-
-**Question for conversation:** [Optional - concrete question to discuss together]
+**Source of recognition:** [👥 who and where / 🪞 myself / 🤖 journal]
 
 ---
 
-## 💬 Conversation Starters For Check-in
+## ⚠️ Dropped Balls
 
-*Concrete connection points for your conversation - invitations to dialogue, not a to-do list*
+*The dropped balls from `expectations.md` for this period. Not a list of complaints: per point what went wrong, the fix, and whether that fix worked.*
+
+### [Code] [Situation]
+**What went wrong:** [Objective description.]
+
+**Fix:** [What I will do differently next time.]
+
+**Did the fix work?** [Did the situation come back, and did it go differently then? Or: not tested yet.]
+
+**Question for the conversation:** [Optional: concrete question to talk about together]
+
+---
+
+## 📊 Status Per Component
+
+*Only components where something happened this period. The assessment comes from the last conversation; this check-in does not change it.*
+
+| Code | Component | Assessment last conversation | This period |
+|------|-----------|------------------------------|-------------|
+| [A.01] | [Component] | [Meets expectations] | [✅ 2, ⚠️ 1, short explanation] |
+
+---
+
+## 💬 Conversation Starters For The Check-in
+
+*Concrete hooks for the conversation: invitations to dialogue, not a to-do list.*
 
 ### 🎉 Celebrate Together
 
-**[Growth moment]** - [Why celebrate this, what does this show]
+**[Moment]** - [Why celebrate this, what does it show]
 
 ### 🤔 Explore Together
 
-**1. [Interesting pattern/insight]**
+**1. [Interesting pattern or insight]**
 [Short description]
 
-*Question:* [Open question to discuss together]
+*Question:* [Open question to talk about together]
 
-**2. [Challenge/development opportunity]**
+**2. [Challenge or development opportunity]**
 [Short description]
 
-*Question:* [Open question to discuss together]
+*Question:* [Open question to talk about together]
 
-**3. [Experiment/idea]** *(optional)*
-[Short description]
+---
 
-*Question:* [Open question to discuss together]
+## 🎬 TL;DR
+
+**🌟 Highlight:** [Biggest win or finest development]
+
+**💪 Strengths:**
+- [Strength 1 with context]
+- [Strength 2 with context]
+
+**👀 Watch Out For:**
+- [Point of attention with nuance and context]
+
+**📊 Summary:** [One sentence that sums up the whole period: energy, development, direction]

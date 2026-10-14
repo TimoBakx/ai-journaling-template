@@ -7,12 +7,17 @@
 
 ## Personality Profile
 
-### DISC Profile (optional, if available)
+### DISC Profile (optional)
 **D:** X% | **I:** X% | **S:** X% | **C:** X%
 
 **Interpretation:**
 - [Most important characteristics]
 - [What this means for collaboration]
+
+*Or, for observations without numbers:*
+Probably [profile type]:
+- [Observation 1]
+- [Observation 2]
 
 ### Big Five (optional, if available)
 - **Openness:** X/7
@@ -46,9 +51,18 @@
 *Complete Gates List (Unique):* [Comma-separated list of gate numbers]
 
 **Contrast with my profile:**
-- They: [Important properties]
-- Me: [My properties for comparison]
+- They: [Important characteristics]
+- Me: [My characteristics for comparison]
 - [Differences that impact collaboration]
+
+**Shared Gates (if applicable):**
+- **Gate XX** (Name) - What we share and why that is interesting
+
+**Electromagnetic Connections (if applicable):**
+
+*Arise when my hanging gates complete the other person's hanging gates, so that together we temporarily form complete channels.*
+
+- **Channel XX-YY: The [Name]**: my Gate XX (Name) + their Gate YY (Name). Connects [Center] and [Center]. Effect: [what this means for our dynamic]
 
 ## Collaboration Patterns
 
@@ -66,6 +80,6 @@
 
 ## Journal Backreferences
 - [YYYY-MM-DD](../journal/...) - Descriptive text of what happened
-- [YYYY-MM-DD](../work-evaluations/...) - Evaluation where this person was important
+- [YYYY-MM-DD](../work-evaluation/...) - Evaluation where this person was important
 
-**Principle:** Journals contain all details, this is a dashboard with who someone is + pointers to moments.
+**Principle:** Journals contain all the details; this is a dashboard with who someone is + pointers to moments.

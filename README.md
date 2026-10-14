@@ -1,196 +1,183 @@
 # 📚 AI-Powered Journaling & Personal Growth System
 
-A structured system for personal and professional development through daily journaling with AI support. This template helps you make growth visible, recognize patterns and capture meaningful reflections.
+A structured system for personal and professional development through daily journaling with an AI coach. This template helps you show what you do, weighed against what your role asks of you, recognize patterns, and record reflections you can actually use in a performance review.
 
 There is also a [Dutch version](https://github.com/TimoBakx/ai-journaling-template-nl).
 
 ## 🎯 Purpose
 
 This journaling system is designed to:
-- **Track personal and professional growth** through structured reflection
+- **Make your work visible**, weighed against the expectations and responsibilities of your role
 - **Preserve insights** from daily experiences, conversations and learning moments
-- **Recognize patterns** in your thinking, behavior and development
-- **Collaborate with AI** for improved self-knowledge and guidance
+- **Recognize patterns** in your thinking, behavior and collaboration
+- **Collaborate with AI** as a sparring partner with a critical eye
 - **Build a searchable archive** of your thoughts and learning experiences
-- **Make growth visible** for evaluations, conversations and career development
+- **Prepare performance reviews** with concrete, dated examples
 
-### 💡 Why This System?
+### 💡 Why this system?
 
-Subtle but valuable growth often remains invisible in traditional evaluation systems. Through systematic documentation of:
-- **Daily experiences** and concrete events
-- **Growth moments** and breakthroughs (large and small)
-- **Patterns** in your behavior, thinking and collaboration
-- **Skills evolution** over time
+Subtle but valuable development often remains invisible. What you did well in March, you no longer remember precisely in September, and a conversation about your performance then runs on impressions instead of facts. By briefly recording every day what happened, and strictly weighing at the end of the day and the week what was above expectations and where you dropped the ball, you build a record that shows your actual development.
 
-You create an **evidence base** that shows your actual development. This approach helps you not only understand yourself better, but also make your value and growth visible to others.
+The AI coach is not a note taker but a sparring partner: it asks follow-up questions when something is too vague, mirrors patterns you do not see yourself, and is critical when you label something as growth too easily.
 
 ## 🗂️ Structure
 
 ```
 notes/
-├── .cursor/
-│   └── rules/                 # AI Coach configuration and rules
-│       ├── ai-coach-personality.mdc  # Personality and character of your AI coach
-│       ├── ai-coach-role.mdc         # Role and functions of your AI coach
-│       ├── general-rules.mdc         # Project structure and workflow
-│       ├── userprofile.mdc           # Reference to profile directory
-│       ├── journaling-rules.mdc     # Daily journaling workflow
-│       ├── reflection-rules.mdc      # End of day reflection methodology
-│       └── evaluation-rules.mdc      # Weekly evaluation approach
-├── profile/                   # Personal assessments and profiles (optional)
-│   ├── big-five.md            # Big Five personality assessment
-│   ├── disc.md                # DISC behavioral analysis  
-│   ├── human-design.md        # Human Design body graph
-│   ├── neurodivergence.md     # Neurodivergent traits
-│   └── professional.md        # Professional background and expertise
-├── work-evaluations/          # Performance reviews and growth plans (optional)
-│   ├── [DATE]-annual-review.md            # Annual reviews
-│   ├── [DATE]-half-year-checkin.md        # Half-year check-ins
-│   └── persoonlijke-groei-plan-[YEAR].md  # Growth plans
+├── AGENTS.md                  # AI Coach instructions (role, guidelines, way of working)
+├── CLAUDE.md                  # Imports AGENTS.md for Claude Code
+├── .claude/skills/            # Workflows as skills
+│   ├── start-day/             # Start of the workday
+│   ├── reflection/            # End of day reflection
+│   ├── weekly-review/         # Weekly review and next week's kickoff
+│   ├── add-project/           # Record a project, including working agreements
+│   └── natural-writing/       # Writing style: human, concrete, no AI patterns
 ├── journal/                   # Daily journaling and reflection
-│   ├── [YEAR]/                # Year directory (e.g. 2025/)
-│   │   └── [WEEK]/            # Week directory (e.g. 45/)
-│   │       ├── 1-monday-[YEAR]-[MONTH]-[DAY].md
-│   │       ├── 2-tuesday-[YEAR]-[MONTH]-[DAY].md
-│   │       ├── 3-wednesday-[YEAR]-[MONTH]-[DAY].md
-│   │       ├── 4-thursday-[YEAR]-[MONTH]-[DAY].md
-│   │       ├── 5-friday-[YEAR]-[MONTH]-[DAY].md
-│   │       ├── week-evaluation.md        # Weekly reflection
-│   │       └── checkin.md (optional)     # For conversations with supervisor
-│   ├── daily-journal-template.md         # Template for daily entries
-│   ├── weekly-review-template.md         # Template for week evaluations
-│   └── checkin-template.md               # Template for check-in reports
-├── projects/                  # Project context and documentation (optional)
-│   ├── _template.md           # Template for new projects
-│   └── [project-name].md      # Project details and reflections
-└── people/                    # Colleagues and collaboration partners (optional)
-    ├── _template.md           # Template for new people
-    └── [name].md              # Notes about individuals
+│   ├── [YEAR]/[WEEK]/
+│   │   ├── 0-kickoff-week-[WEEK].md     # Guiding overview for the week
+│   │   ├── 1-monday-[YEAR]-[MONTH]-[DAY].md
+│   │   ├── ...
+│   │   ├── 5-friday-[YEAR]-[MONTH]-[DAY].md
+│   │   ├── week-evaluation.md           # Weekly reflection
+│   │   └── checkin.md (optional)        # For conversations with your manager
+│   ├── daily-journal-template.md
+│   ├── weekly-kickoff-template.md
+│   ├── weekly-review-template.md
+│   └── checkin-template.md
+├── work-evaluation/
+│   ├── expectations.md        # The active state: learning goals, expectation and assessment per component of your role
+│   └── archive/               # Conversation reports, self-evaluations and earlier versions of expectations.md
+├── profile/                   # Personal assessments (optional)
+│   ├── big-five.md
+│   ├── disc.md
+│   ├── human-design.md
+│   ├── neurodivergence.md
+│   └── professional.md
+├── projects/                  # Project context (optional)
+│   ├── _template.md
+│   └── [project-name].md
+├── people/                    # Colleagues and collaboration partners (optional)
+│   ├── _template.md
+│   └── [name].md
+└── tools/                     # Reverse lookups of identifiers in external tools (optional)
+    └── README.md
 ```
 
-### 📅 Week Structure Example
-
-Each week follows a consistent structure within `journal/[YEAR]/[WEEK_NUMBER]/`:
+### 📅 Week structure example
 
 ```
-journal/2025/45/
-├── 1-monday-2025-11-03.md
-├── 2-tuesday-2025-11-04.md
-├── 3-wednesday-2025-11-05.md
-├── 4-thursday-2025-11-06.md
-├── 5-friday-2025-11-07.md
+journal/2026/45/
+├── 0-kickoff-week-45.md
+├── 1-monday-2026-11-02.md
+├── 2-tuesday-2026-11-03.md
+├── 3-wednesday-2026-11-04.md
+├── 4-thursday-2026-11-05.md
+├── 5-friday-2026-11-06.md
 └── week-evaluation.md
 ```
 
 Week numbers follow the ISO 8601 standard (use `date +%V` on Unix systems).
 
-## 🚀 Getting Started
+## 🚀 Getting started
 
-### 1. Configure Your AI Coach
-Adjust the AI Coach configuration in `.cursor/rules/`:
-- **`ai-coach-personality.mdc`** - Define the character and emotional attitude of your AI coach
-- **`ai-coach-role.mdc`** - Determine the function and activities of your AI coach within this project
-- **`general-rules.mdc`** - Basic project structure and workflow (adjust to your situation)
-Many placeholders are in [square brackets], adjust those especially (except for template files).
+### 1. Configure your AI coach
 
-### 2. (Optional) Fill In Your Profiles
-The `profile/` directory helps your AI coach understand you better:
-- **`big-five.md`** - Big Five personality assessment
-- **`disc.md`** - DISC behavioral analysis  
-- **`human-design.md`** - Human Design body graph
-- **`neurodivergence.md`** - Neurodivergent traits
-- **`professional.md`** - Professional background and expertise
+All instructions live in `AGENTS.md`: the role of the coach, the guidelines for journaling, reflection and evaluation, and how strictly things are weighed. Go through the file and fill in the placeholders in [brackets], at least:
 
-The more context your AI coach has, the better the guidance!
+- **Tone & personality**: how do you want the coach to feel?
+- **Main goal**: where is your focus?
+- **Being seen**: what is your fuel at work, and what are the signals that it is falling away?
+- **Tooling & integrations**: which tools do you connect, if any?
 
-### 3. Start journaling
-Start your first daily journal entry:
-1. Create a directory structure: `journal/[YEAR]/[WEEK_NUMBER]/`
-2. Use `journal/daily-journal-template.md` for your first entry
-3. Share your thoughts, experiences and events with your AI coach
-4. Reflect together at the end of the day
+`AGENTS.md` is the open standard most tools read (Cursor, VS Code with Copilot, Codex, Aider, Zed and others). Claude Code reads `CLAUDE.md`, which imports the file. The workflows in `.claude/skills/` are Claude Code skills; if you use another tool, you can take the content of each `SKILL.md` over as a rule or paste it into your instruction file.
 
-### 4. Weekly Evaluation
-At the end of each week:
-1. Use `journal/weekly-review-template.md` for your weekly evaluation
-2. Analyze patterns and insights with your AI coach
-3. Link experiences to your growth goals (if applicable)
-4. Prepare check-ins with supervisors (if desired)
+### 2. Record the expectations of your role
 
-### 5. (Optional) Use People & Projects
-- **`people/`** - Document colleagues, collaboration patterns and team dynamics
-- **`projects/`** - Keep project context and link to journal entries
-- **`work-evaluations/`** - Store performance reviews and growth plans
+Fill in `work-evaluation/expectations.md`: the components of your role (from your organization's job profile or competency framework, or your own list of responsibilities if there is none), per component the expectation at your level and the latest assessment from a conversation, and your learning goals. This file is the yardstick for the daily reflection and the weekly review.
 
-## 🤝 Collaboration with AI
+Conversation reports, self-evaluations and old growth plans go into `work-evaluation/archive/`. After every conversation, `expectations.md` goes into the archive as a snapshot and a new version starts with the new assessment.
 
-This system is designed to work seamlessly with AI support (such as Cursor, ChatGPT, Claude):
-- **Context-rich conversations** - Your profiles and history provide deeper understanding
-- **Pattern recognition** - AI helps identify trends in your thoughts and growth
-- **Personalized guidance** - Recommendations based on your specific situation
-- **Structured reflection** - Frameworks for meaningful growth
-- **Memory function** - Refer back to earlier notes and patterns
+### 3. (Optional) Fill in your profiles
 
-## 📝 Journaling Workflow
+The `profile/` directory helps your AI coach understand you better: Big Five, DISC, Human Design, neurodivergence and professional background. The more context, the sharper the coaching. None of this is required.
 
-### Daily Routine
-1. **Start your day** - Fill in the "🎯 Planned" section with your tasks
-2. **Throughout the day** - Add events to "📝 Daily Flow"
-3. **End of day** - Reflect together with your AI coach in "🔍 End of Day - Reflection"
-4. **Tasks for Later** - Note what doesn't happen today
+### 4. Start journaling
 
-### Natural Flow
-- **Be authentic** - share what's on your mind, without filter
-- **No perfection needed** - rough thoughts are fine, structure comes naturally
-- **Ask follow-up questions** - let your AI coach help with clarification
-- **Make connections** - link to projects, people and earlier entries
+1. Start the day with the `start-day` skill (or ask your coach to start the day): it creates the daily file, looks at the week kickoff, the previous day and, if connected, your task manager and calendar, and lays your learning goals alongside the planning.
+2. Share what you are doing throughout the day. The coach processes it in the Daily Flow and asks follow-up questions when something is still too vague to read back usefully later.
+3. Close the day with the `reflection` skill: you fill in "What I Am Proud Of", the coach fills in the rest, you have the final say. The weighing (above expectations, dropped balls) gets backlinks in `expectations.md`.
 
-### AI Coach Role
-Your AI coach helps you with:
-- Organizing thoughts into structured notes
-- Asking clarifying questions to deepen insights  
-- Making connections between events and growth patterns
-- Recognizing patterns over time
-- Making senior skills and competencies visible
+### 5. Weekly review
 
-## 🔍 Tips & Best Practices
+At the end of the week, in its own session, with the `weekly-review` skill: patterns across the days, work on the learning goals, the week's weighing per component, and to close, the kickoff for next week.
 
-### Cross-Referencing
-- **Link to projects**: `([Project](../../projects/project.md))` in headers and tasks
-- **Link to people**: `[Name](../../people/name.md)` in your notes
-- **Link to earlier entries**: Refer to patterns and earlier moments
+### 6. (Optional) People & projects
+
+- **`projects/`**: context per project, including the working agreements at the start (the `add-project` skill walks through them)
+- **`people/`**: colleagues, collaboration patterns and team dynamics
+- **`tools/`**: which identifier in which external tool belongs to which project
+
+### 7. (Optional) Connect your tools
+
+The system works without integrations. If you connect a task manager, calendar, ticket system, chat or email through MCP, the coach uses them to fill the planning, complete the daily flow and find feedback moments. The rules for that are in `AGENTS.md` under "Tooling & integrations": reading may be proactive, writing only on request, and the journal stays the primary place.
+
+## ⚖️ Meets or above expectations
+
+The biggest lesson from a year of journaling: weighing against "growth" does not work. Growth is vague, and an AI coach that looks for growth finds it everywhere. This system therefore weighs against the **expectation per component of your role**:
+
+- **Meets expectations** is what the description of the component asks for. Good work that belongs to your role. A fine outcome, and on most days that is all there is.
+- **Above expectations** is the extra step beyond that description: new behavior, application in a new context, an improvement that reaches further than your own work. Only on your own initiative, and with a source of recognition: who saw this (👥 a colleague, 🪞 yourself, 🤖 the journal)?
+- **Dropped balls** are where you could have done something differently yourself, always with a concrete fix for next time.
+
+Learning goals have no status. The only question is whether you worked on them this week, and how. "Not this week" is a normal outcome, and a week without an example of above expectations can be a good week.
+
+## 🔍 Tips
+
+### Cross-referencing
+- **Link to projects**: `([Project](../../../projects/project.md))` in headers and tasks
+- **Link to people**: `[Name](../../../people/name.md)` in your notes
+- **Link to earlier entries**: refer to patterns and earlier moments
 
 ### Consistency
 - Use the templates for daily and weekly entries
-- Follow the week structure: `journal/[YEAR]/[WEEK_NUMBER]/`
-- File naming: `[DAY_NUMBER]-[day]-[YEAR]-[MONTH]-[DAY].md`
+- One session per day, and a separate session for the weekly review, so that yesterday's assumptions do not bleed into today unnoticed
+- The journal is the primary place; a task manager is supporting
 
 ### Depth
-- Be specific in your observations - concrete examples work better than general statements
-- Ask follow-up questions with your AI coach if something is unclear
-- Link events to your growth goals (if applicable)
+- Be specific: concrete examples work better than general statements
+- Let the coach ask follow-up questions when something is unclear, and correct it when it fills in something that is wrong
+- Write your external texts (emails, messages) yourself and have the coach review them; that keeps you sharper than having a draft written
 
 ## 🌱 Philosophy
 
-This journaling approach is built on:
-- **Safety** - this is your safe space for growth and reflection
-- **Honesty** - authentic sharing without filter or judgment
-- **Patience** - growth takes time, small steps count
-- **Curiosity** - keep learning and discovering, ask questions
-- **Visibility** - make invisible growth explicit and tangible
+- **Safety**: this is your space for reflection
+- **Honesty**: share authentically, and weigh strictly
+- **Patience**: development takes time, small steps count
+- **Curiosity**: keep asking questions
+- **Visibility**: make explicit and tangible what otherwise stays invisible
 
----
+## 🔄 What changed since the first version
 
-## 🎯 Adapting For Your Situation
+The first version of this template (November 2025) was built on Cursor rules and on looking for "growth". A year of daily use produced these changes:
 
-This template is a **starting point** - adapt it to your needs:
-- Add extra sections to the daily template that work for you
-- Create custom directories for your specific context
-- Adjust the AI coach rules to your preferences
-- Experiment with what works and what doesn't
+- **From growth to expectations.** The journal weighs against the expectation per component of your role in `work-evaluation/expectations.md`, not against a vague picture of growth. Learning goals no longer have a status.
+- **Dropped balls, with a fix.** Next to above expectations, the journal tracks where you could have done something differently yourself, and what you will do differently next time.
+- **Source of recognition.** Every example of above expectations marks who saw it, so the journal does not become a closed loop that confirms itself.
+- **Questions instead of filling in.** The coach does not present an assumption as a missed signal; it asks a question. That difference decides whether you get defensive or start thinking more broadly.
+- **Weigh, don't match.** Five fixed pitfalls when weighing, and the rule: do not search in order to fill.
+- **Being seen.** "Who saw you today?" and an outside view in the reflection, because whoever does more and more themselves loses, without noticing, the feedback that used to come naturally.
+- **Timing of coaching.** During the day, only follow-up questions to complete the note; weighing and patterns belong to the reflection and the weekly review.
+- **One session per day.** So that yesterday's assumptions do not bleed into today.
+- **The week kickoff.** A guiding document at the start of the week, not a task list.
+- **Working agreements per project.** Record the Way of Work at the start of an engagement.
+- **Writing style.** The `natural-writing` skill against AI patterns, and no coined labels.
+- **Tooling.** From Cursor rules to `AGENTS.md` and skills, and optional integrations with task manager, calendar, tickets and chat.
 
-**Most important tip**: Start simple, iterate and refine as you learn more about what you need!
+## 🎯 Adapting to your situation
 
----
+This template is a starting point:
+- Remove what you do not use; profiles, people, projects and tools are all optional
+- Adapt `AGENTS.md` to your preferences and your role
+- Experiment with what works and what does not
 
-*Good luck with your growth journey! 🚀✨*
+Start simple, and refine as you learn more about what you need.
